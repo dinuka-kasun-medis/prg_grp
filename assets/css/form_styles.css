@@ -1,0 +1,104 @@
+.form_container{
+    margin:10px;
+    padding:0px !important;
+    background-color:#f2f1ef;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius:5px;
+}
+
+.form_container .form_title{
+    font-size:30px;
+    font-weight:bold;
+    text-transform:uppercase;
+    margin-bottom:30px;
+    padding:10px;
+    text-align:center;
+    color:white;
+    background-color: #32485c;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.form_container .form_content{
+    margin:10px;
+}
+
+.form_container .form_item{
+    margin-bottom:30px;
+    margin-top:10px;
+}
+
+.form_container .form_item .form_label{
+    display:block;
+    margin-bottom:5px;
+    color: #777b77;
+    margin-left:5px;
+}
+
+.form_container .form_item .form_input{
+    width:100%;
+    outline:none;
+    border-width:1px;
+    border-style:solid;
+    border-color:#d2d7d3;
+    padding:10px;
+    transition:all 0.2s;
+    opacity:0.7;
+    border-radius:3px;
+}
+
+.form_container .form_item .form_input:hover{
+    opacity:1;
+}
+
+.form_container .form_item .form_input:focus {
+    border-width:1px;
+    border-style:solid;
+    border-color: #6d706d;
+    opacity:1;
+}
+
+
+
+.form_item button{
+    background-color:#22313f;
+    border:none;
+    color:white;
+    padding:10px;
+    font-size:20px;
+    border-radius:3px;
+    transition:all 0.2s;
+    padding-left:20px;
+    padding-right:20px;
+    cursor:pointer;
+}
+
+.form_item button:hover {
+    background-color: #385065;
+}
+
+.select-items {
+    position: absolute;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.form_container .filler{
+    padding-left:0px !important;
+    padding-right:0px !important;
+}
+
+.form_info_box{
+    padding:20px;
+    border-radius:3px;
+    text-align:center;
+}
+
+.form_info_box .form_info{
+    font-size:18px;
+    color:black;
+}
