@@ -39,10 +39,12 @@
 
                         </li> -->
                         <div class="navbar-item">
-                            <a href="signin.php" class="btn red">Sign In</a><br>
+                            <a href="<?=base_url("")?>" class="btn red">Sign In</a><br>
+
+
                         </div>
                         <div>
-                            <a href="signup.php" class="btn red">Sign Up</a>
+                            <a href="<?=base_url("signup")?>" class="btn red">Sign Up</a>
                         </div>
                     </ul>
                 </div>
