@@ -46,7 +46,7 @@
         </div>
         <div>
             <link rel="stylesheet" type="text/css" href="<?=base_url("assets/css/header_styles.css")?>">
-            <div id="header_title">UCSC PrinShop OnLine</div>
+            <div id="header_title">UCSC PrintShop OnLine</div>
         </div>
 
         <div class="flex-grow-1"></div>
