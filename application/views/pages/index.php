@@ -1,6 +1,3 @@
-<?php $this->load->view('common/head.php')?>
-<?php $this->load->view('common/headerindex.php')?>
-<?php $this->load->view('common/script.php')?>
 <body>
     <section>
     <br>
