@@ -22,4 +22,45 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('welcome_message');
 	}
+
+	public function send($value=''){
+		$this->load->library('email');
+	}
+
+	$config = array(
+		'mailtype'=>"html"
+	);
+	
+	$this->email->initialize($config);
+
+	$this-> email ->from('dinuka.kasunds@gmail.com','Dinuka Kasun');
+
+	$this->email->to('dinuka.kasunds@gmail.com');
+
+	$this->email->cc('dinuka.kasunds@gmail.com');
+
+	$this->email->subject('dinuka.kasunds@gmail.com');
+
+	$this->email->message(
+		str_replace("{contents}",
+		$this->email_text(),
+		$this->email_template()
+	));
+
+	$this->email->attach(FCPATH. 'document/test.pdf');
+
+	if($this->email->send()){
+		echo "Email send";
+	}else{
+		echo $this->email->print_debugger();
+	}
+
+	public function email_text(){
+		return 'test email';
+	}
+
+	public function email_template(){
+		$template.='{contents}';
+	}
+
 }
