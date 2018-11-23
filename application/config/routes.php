@@ -56,3 +56,5 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['signup'] = 'SignUp/index';
 $route['process_add'] = 'SignUp/process_add';
+
+$route['dashboard']= 'Dashboard/index';
