@@ -24,17 +24,19 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
+
                         <div class="navbar-item">
                             <a href="<?=base_url("")?>" class="btn red">Sign In</a><br>
-
-
                         </div>
-                        <div>
+
+                        <div class="navbar-item">
                             <a href="<?=base_url("signup")?>" class="btn red">Sign Up</a><br>
                         </div>
-                        <div>
-                            <a href="<?=base_url('DashboardAdmin')?>" class="btn red">admin</a>
+
+                        <div class="navbar-item">
+                            <a href="<?=base_url('DashboardAdmin')?>" class="btn red">Admin</a><br>
                         </div>
+
                     </ul>
                 </div>
             </nav>
