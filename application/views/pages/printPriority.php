@@ -1,66 +1,59 @@
-<link rel="stylesheet" type="text/css" href="<?=base_url('assets/css/printpriority.css')?>">
-<link rel="stylesheet" type="text/css" href="<?=base_url('assets/js/printpriority.js')?>">
-<body>
-<section>
-<br/>
-<br/>
-<br/>
-<section>
-<section>
-<div id="chartpanel" class="row" data-equalizer>
-  
-  <div class="column small-12 left_panel" >
-    <header data-equalizer-watch>
-      <i class="fa fa-bars menu_top_icon" aria-hidden="true"></i>
-      <div class="right_nav">
-        <i class="fa fa-heart" aria-hidden="true"></i>
-        <i class="fa fa-link" aria-hidden="true"></i>
-        <i class="fa fa-user-circle" aria-hidden="true"></i>
-      </div>
-      <charttitle> </charttitle>
-    </header>
-  
-  
-  <div id="chart_table">
-    <form id="chart_datas"  >
-      <div class="grid-container">
-        <div class="grid-x grid-padding-x input_wrp">
-          <div class="small-1 cell column">
-            <label>
-              <input type="text" placeholder="id">
-            </label>
-          </div>
-          <div class="small-2 cell column">
-            <label>
-              <input type="text" placeholder="value" v-model="value" id="value" name="value">
-            </label>
-          </div>
-          <div class="small-6 cell column">
-            <label>
-              <input type="text" placeholder="Label" v-model="label" id="label" name="label">
-            </label>
-          </div>
-          <div class="small-3 cell column">
-            <label>
-              <input type="text" placeholder="Icon" v-model="icon" id="icon" name="icon">
-            </label>
-          </div>
-        </div>
-        
-         <div class="addRowBtn" v-on:click.prevent="addRow" value=""><i class="fa fa-plus" aria-hidden="true"></i></div>
-      </div>  
+<head>
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
 
-    </form>
-    
-    <charttable v-bind:proplabels="labels"> </charttable>
-  </div>
-  </div> <!-- end left panel -->
-  <!--<div class="column small-12 medium-4 right_panel">
-    <header data-equalizer-watch>
-<chartsubtitle> </chartsubtitle>
-    </header>
-  </div> -->
-</div>
-</section>
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th>User Id</th>
+    <th>Name</th>
+    <th>Pdf</th>
+    <th>Time</th>
+    <th>Price</th>
+    <th>Print</th>
+  </tr>
+  <tr>
+    <td>U0001</td>
+    <td>Maria Anders</td>
+    <td>pdf</td>
+    <td>Time</td>
+    <td>Price</td>
+    <td><a href="<?=base_url('DashboardAdmin')?>" class="btn red">Print</a></td>
+  </tr>
+  <tr>
+    <td>U0002</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+    <td>Time</td>
+    <td>Price</td>
+    <td>Print</td>
+  </tr>
+  <tr>
+    <td>U0003</td>
+    <td>Roland Mendel</td>
+    <td>Austria</td>
+    <td>Time</td>
+    <td>Price</td>
+    <td>Print</td>
+  </tr>
+  
+</table>
+
 </body>
 
