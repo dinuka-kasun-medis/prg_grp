@@ -33,7 +33,7 @@
                             <a href="<?=base_url("signup")?>" class="btn red">Sign Up</a>
                         </div>
                         <div>
-                            <a href="<?=$this->load->helper('view/pages/admindashboard.php')?>" class="btn red">admin</a>
+                            <a href="<?=base_url('DashboardAdmin')?>" class="btn red">admin</a>
                         </div>
                     </ul>
                 </div>
