@@ -24,25 +24,14 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
-                        <!-- <li class="navbar-item active">
-                            <a href="index.php" class="nav-link">Home</a>
-                        </li>
-                        
-                        <li class="navbar-item">
-                            <a href="about.html" class="nav-link">About</a>
-                        </li>
-                        <li class="navbar-item">
-                            <a href="blog.html" class="nav-link">Blog</a>
-                        </li>
-                        <li class="navbar-item">
-                            <a href="service.php" class="nav-link">Services</a>
-
-                        </li> -->
                         <div class="navbar-item">
                             <a href="signin.php" class="btn red">Sign In</a><br>
                         </div>
                         <div>
                             <a href="signup.php" class="btn red">Sign Up</a>
+                        </div>
+                        <div>
+                            <a href="<?=$this->load->helper('view/pages/admindashboard.php')?>" class="btn red">admin</a>
                         </div>
                     </ul>
                 </div>

@@ -94,6 +94,5 @@
         </div>
     </section>
 
-    <?php $this->load->view('common/footer.php')?>
 
 </body>
