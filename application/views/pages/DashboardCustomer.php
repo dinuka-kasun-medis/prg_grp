@@ -38,32 +38,31 @@
         }
 
         #PriceList {background-color: red;}
-        #NewJob {background-color: green;}
-        #Contact {background-color: blue;}
-        #About {background-color: orange;}
+        #JobCard {background-color: green;}
+        #Upload {background-color: blue;}
+        #Deals {background-color: orange;}
     </style>
 </head>
 <body>
 
 <button class="tablink" onclick="openPage('PriceList', this, 'red')">Price List</button>
-<button class="tablink" onclick="openPage('NewJob', this, 'green')" id="defaultOpen">New Job</button>
-<button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
-<button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+<button class="tablink" onclick="openPage('JobCard', this, 'green')" id="defaultOpen">Job Card</button>
+<button class="tablink" onclick="openPage('Upload', this, 'blue')">Upload</button>
+<button class="tablink" onclick="openPage('Deals', this, 'orange')">Deals</button>
 
 <div id="PriceList" class="tabcontent">
-    <?php $this->load->view(""); ?>
+
 </div>
 
-<div id="NewJob" class="tabcontent">
-    <?php $this->load->view(""); ?>
+<div id="JobCard" class="tabcontent">
+    <?php $this->load->view("forms/JobCard"); ?>
 </div>
 
-<div id="Contact" class="tabcontent">
-    <h3>Contact</h3>
-    <p>Get in touch, or swing by for a cup of coffee.</p>
+<div id="Upload" class="tabcontent">
+    <?php $this->load->view("forms/UploadDoc"); ?>
 </div>
 
-<div id="About" class="tabcontent">
+<div id="Deals" class="tabcontent">
     <h3>About</h3>
     <p>Who we are and what we do.</p>
 </div>

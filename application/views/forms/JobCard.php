@@ -60,6 +60,13 @@
                         </div>
                     </div>
 
+                    <div class="row col-md-12">
+                        <div class="form_item col-md-12">
+                            <span class="form_label">Notes</span>
+                            <textarea class="" type="" placeholder="" name="notes" style="width:450px"></textarea>
+                        </div>
+                    </div>
+
                     <div class="form_item col-md-3">
                         <button type="submit">Submit</button>
                     </div>

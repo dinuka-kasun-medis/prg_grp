@@ -15,7 +15,7 @@ class DashboardCustomer extends CI_Controller {
 
     }
 
-	public function process_add()
+	public function jobcard_process()
     {
         $this->load->library('form_validation');
         $this->load->database();
