@@ -26,7 +26,7 @@
                     <ul class="navbar-nav ml-auto">
 
                         <div class="navbar-item">
-                            <a href="<?=base_url("")?>" class="btn red">Sign In</a><br>
+                            <a href="<?=base_url("signin")?>" class="btn red">Sign In</a><br>
                         </div>
 
                         <div class="navbar-item">
