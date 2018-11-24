@@ -37,8 +37,8 @@
             height: 100%;
         }
 
-        #Home {background-color: red;}
-        #News {background-color: green;}
+        #PriceList {background-color: red;}
+        #NewJob {background-color: green;}
         #Contact {background-color: blue;}
         #About {background-color: orange;}
     </style>
@@ -51,11 +51,11 @@
 <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
 
 <div id="PriceList" class="tabcontent">
-    <?php $this->load->view("forms/JobCard"); ?>
+    <?php $this->load->view(""); ?>
 </div>
 
 <div id="NewJob" class="tabcontent">
-    <?php $this->load->view("forms/JobCard"); ?>
+    <?php $this->load->view(""); ?>
 </div>
 
 <div id="Contact" class="tabcontent">

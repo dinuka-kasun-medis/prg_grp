@@ -15,6 +15,16 @@
                 <form  class="column form_content" method="POST" action="<?=base_url("jobcard")?>">
 
                     <div class="row col-md-12">
+                        <div class="form_item col-md-6">
+
+                        </div>
+                        <div class="form_item col-md-6">
+                            <span class="form_label">Job Number</span>
+                            <input  class="form_input" type="text" placeholder="" name="photocopies"/>
+                        </div>
+                    </div>
+
+                    <div class="row col-md-12">
                         <div class="form_item col-md-12">
                             <span class="form_label">Job Title
                             <input  class="form_input" type="text" placeholder="Give a name for Job" name="title"/>
@@ -47,14 +57,6 @@
                         <div class="form_item col-md-6">
                             <span class="form_label">For Binding</span>
                             <input  class="form_input" type="text" placeholder="Page numbers:" name="binding"/>
-                        </div>
-                    </div>
-
-                    <div class="row col-md-12">
-                        <div class="form_item col-md-12">
-                            <span class="form_label">File Upload Here</span>
-                            <input type ="file" name = "userfile" size="20"/>
-                            <input type="submit" value="Upload"/>"
                         </div>
                     </div>
 
