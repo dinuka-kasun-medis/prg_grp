@@ -1,21 +1,16 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class DashboardCustomer extends CI_Controller {
+class SignIn extends CI_Controller {
 
 	public function index()
 	{
 		$this->load->view("common/header");
-        $this->load->view("pages/DashboardCustomer");
+        $this->load->view("forms/SignIn");
 
 	}
 
-    public function jobcard()
-    {
-
-    }
-
-	public function jobcard_process()
+	public function process_add()
     {
         $this->load->library('form_validation');
         $this->load->database();

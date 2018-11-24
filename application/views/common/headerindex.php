@@ -1,6 +1,6 @@
 <head>
     <meta charset="UTF-8">
-    <title>Designer Portfolio</title>
+    <title>UCSC Print Shop OnLine</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#03a6f3">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -24,17 +24,19 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
+
                         <div class="navbar-item">
-                            <a href="<?=base_url("")?>" class="btn red">Sign In</a><br>
+                            <a href="<?=base_url("signin")?>" class="btn red">Sign In</a><br>
+                        </div>
 
+                        <div class="navbar-item">
+                            <a href="<?=base_url("signup")?>" class="btn red">Sign Up</a><br>
+                        </div>
 
+                        <div class="navbar-item">
+                            <a href="<?=base_url('DashboardAdmin')?>" class="btn red">Admin</a><br>
                         </div>
-                        <div>
-                            <a href="<?=base_url("signup")?>" class="btn red">Sign Up</a>
-                        </div>
-                        <div>
-                            <a href="<?=base_url('DashboardAdmin')?>" class="btn red">admin</a>
-                        </div>
+
                     </ul>
                 </div>
             </nav>
