@@ -39,7 +39,7 @@
 
         #PriceList {background-color: red;}
         #JobCard {background-color: green;}
-        #Upload {background-color: blue;}
+        #Upload {background-color: yellow;}
         #Deals {background-color: orange;}
     </style>
 </head>
@@ -63,8 +63,7 @@
 </div>
 
 <div id="Deals" class="tabcontent">
-    <h3>About</h3>
-    <p>Who we are and what we do.</p>
+    <?php $this->load->view("pages/Deals"); ?>
 </div>
 
 <script>
