@@ -74,7 +74,7 @@
 <div class = "container">
 
     <form class = "form-signin" role = "form"
-          action = "dashbord.php" method = "post">
+          action = "<?=base_url("dashboard")?>" method = "post">
 
         <label>Username:</label>
         <input type = "text" class = "form-control"
