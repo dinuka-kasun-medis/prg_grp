@@ -16,7 +16,7 @@
 
 <footer>
     <div class="container">
-        <ul>
+        <!-- <ul>
             <li>
                 <a href="index.html">Home</a>
             </li>
@@ -35,7 +35,7 @@
             <li>
                 <a href="">Contact</a>
             </li>
-        </ul>
+        </ul> -->
         <h5>C) 2018. All Rights Reserved. <a href="#">Programming Group</a></h5>
     </div>
 </footer>
