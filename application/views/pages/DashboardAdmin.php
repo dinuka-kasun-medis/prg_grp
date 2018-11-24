@@ -27,7 +27,7 @@
 
   <div class="box fourth">
     <span class="icon-cont"><i class="fa fa-print"></i></span>
-
+    <a href="<?=base_url("PrintPriority")?>">
     <h3>Print priority</h3>
 
   </div>

@@ -9,7 +9,11 @@
     
     <section class="project-sart">
         <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-1">
+
+            </div>
+
+            <div class="col-sm-11">
                 <h2>UCSC print shop </h2>
                 <h4>online printing service</h4>
                 <h6>UCSC online printing service helps to save your vauble time and we can print
@@ -18,7 +22,7 @@
                 
             </div>
 
-            <div class="col-sm-4">
+            <!-- <div class="col-sm-4">
                 <div class="slideshow-container">
 
                 <div class="mySlides fade">
@@ -43,7 +47,7 @@
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 
