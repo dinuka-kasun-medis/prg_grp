@@ -63,3 +63,4 @@ $route['login'] = 'LogIn/index';
 
 $route['dashboard']= 'DashboardCustomer/index';
 $route['jobcard']= 'DashboardCustomer/jobcard';
+$route['order'] = 'OrderDetails/viewOrder';
