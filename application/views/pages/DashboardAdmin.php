@@ -6,7 +6,7 @@
 <div class="container">
   <div class="box first">
     <span class="icon-cont"><i class="fa fa-user"></i></span>
-
+    <a href="<?=base_url("UserDetails")?>">
     <h3>User Details</h3>
 
   </div>
