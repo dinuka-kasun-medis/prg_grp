@@ -36,7 +36,7 @@
                         <div class="navbar-item">
                             <a href="<?=base_url('DashboardAdmin')?>" class="btn red">Admin</a><br>
                         </div>
-
+                        
                     </ul>
                 </div>
             </nav>

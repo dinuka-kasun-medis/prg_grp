@@ -63,4 +63,5 @@ $route['login'] = 'LogIn/index';
 
 $route['dashboard']= 'DashboardCustomer/index';
 $route['jobcard']= 'DashboardCustomer/jobcard';
+$route['email'] = 'Email_Controller';
 $route['order'] = 'OrderDetails/viewOrder';

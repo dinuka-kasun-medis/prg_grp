@@ -6,21 +6,22 @@
 <div class="container">
   <div class="box first">
     <span class="icon-cont"><i class="fa fa-user"></i></span>
-    <a href="<?=base_url("UserDetails")?>">
+
+    <a href="<?=base_url("userDetails")?>">
     <h3>User Details</h3>
 
   </div>
 
   <div class="box second">
     <span class="icon-cont"><i class="fa fa-list"></i></span>
-
+    <a href="<?=base_url("orders")?>">
     <h3>Orders</h3>
 
   </div>
 
   <div class="box third">
     <span class="icon-cont"><i class="fa fa-history"></i></span>
-
+    <a href="<?=base_url("orderHistory")?>">
     <h3>History</h3>
 
   </div>

@@ -9,7 +9,7 @@ table {
 
 td, th {
     border: 1px solid #dddddd;
-    text-align: center;
+    text-align: left;
     padding: 8px;
     
 }
@@ -36,7 +36,7 @@ tr:nth-child(even) {
     <td>pdf</td>
     <td>Time</td>
     <td>Price</td>
-    <td><a href="<?=base_url('DashboardAdmin')?>" class="btn red">Print</a></td>
+    <td><a href="<?=base_url('Email_controller')?>" class="btn red">email</a></td>
   </tr>
   <tr>
     <td>U0002</td>
@@ -44,7 +44,8 @@ tr:nth-child(even) {
     <td>Mexico</td>
     <td>Time</td>
     <td>Price</td>
-    <td>Print</td>
+    <td><a href="<?=base_url('any_folder_name/any_file.pdf')?>" target="_blank">Show My Pdf</a></td>
+    
   </tr>
   <tr>
     <td>U0003</td>
