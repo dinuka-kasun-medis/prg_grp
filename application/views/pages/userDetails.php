@@ -30,18 +30,18 @@ tr:nth-child(even) {
 
   </tr>
   <?php  
-         foreach ($h->result() as $row)  
-         {  
-            ?><tr>  
-            <td><?php echo $row->sid;?></td>  
-            <td><?php echo $row->fname;?></td>
-            <td><?php echo $row->lname;?></td>  
-            <td><?php echo $row->email;?></td>
-            <td><?php echo $row->faculty;?></td>  
-            <td><?php echo $row->password;?></td>  
-            </tr>  
-         <?php }  
-         ?>  
+    foreach ($h->result() as $row)  
+    {  
+      ?><tr>  
+      <td><?php echo $row->sid;?></td>  
+      <td><?php echo $row->fname;?></td>
+      <td><?php echo $row->lname;?></td>  
+      <td><?php echo $row->email;?></td>
+      <td><?php echo $row->faculty;?></td>  
+      <td><?php echo $row->password;?></td>  
+      </tr>  
+    <?php }  
+  ?>  
   <!-- <tr>
     <td>U0001</td>
     <td>Maria Anders</td>
