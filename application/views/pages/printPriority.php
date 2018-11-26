@@ -36,7 +36,7 @@ tr:nth-child(even) {
     <td>pdf</td>
     <td>Time</td>
     <td>Price</td>
-    <td><a href="<?=base_url('Email_controller')?>" class="btn red">email</a></td>
+    <td><a href="<?=base_url('Email')?>" class="btn red">email</a></td>
   </tr>
   <tr>
     <td>U0002</td>
