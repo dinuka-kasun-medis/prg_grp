@@ -20,8 +20,8 @@ class LogIn extends CI_Controller {
     public function login_student(){
         $this->load->library('session');
         if($this->session->userdata("logged")){
-            echo "You are already logged in.";
-            return;
+            $this->load->view("common/header");
+            $this->load->view("pages/DashboardCustomer");
         }
         try{
             if(!isset($_POST['email']) || !isset($_POST['password'])) throw new Exception();

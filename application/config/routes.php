@@ -61,7 +61,7 @@ $route['uploader'] = 'Upload';
 
 $route['login'] = 'LogIn/index';
 $route['log-in'] = 'LogIn/login_student';
-$route['logout'] = 'auth/logout';
+$route['logout'] = 'LogIn/logout';
 
 $route['dashboard']= 'DashboardCustomer/index';
 $route['jobcard']= 'DashboardCustomer/jobcard';
