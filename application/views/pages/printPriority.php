@@ -44,7 +44,7 @@ tr:nth-child(even) {
     <td>Mexico</td>
     <td>Time</td>
     <td>Price</td>
-    <td><a href="<?=base_url('any_folder_name/any_file.pdf')?>" target="_blank">Show My Pdf</a></td>
+    <td><a href="<?=base_url('views/R.pdf')?>" target="_blank">Show My Pdf</a></td>
     
   </tr>
   <tr>

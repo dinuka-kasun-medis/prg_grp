@@ -38,61 +38,21 @@ tr:nth-child(even) {
     foreach ($h->result() as $row)  
     {  
       ?><tr>  
-      <td><?php echo $row->oid;?></td>  
-      <td><?php echo $row->nprintouts;?></td>
-      <td><?php echo $row->npcopies;?></td>  
-      <td><?php echo $row->clrprint;?></td>
-      <td><?php echo $row->laminate;?></td>  
-      <td><?php echo $row->binding;?></td>
-      <td><?php echo $row->note;?></td>  
       <td><?php echo $row->sid;?></td>  
+      <td><?php echo $row->fname;?></td>
+      <td><?php echo $row->lname ;?></td>  
+      <td><?php echo $row->nprintouts ;?></td>
+      <td><?php echo $row->npcopies ;?></td>  
+      <td><?php echo $row->clrprint ;?></td>
+      <td><?php echo $row->laminate ;?></td>  
+      <td><?php echo $row->binding;?></td>  
+      <td><?php echo $row->binding;?></td>  
+      <td><?php echo $row->binding;?></td>  
+      <td><?php echo $row->binding;?></td>  
       </tr>  
     <?php }  
   ?>
 
-
-
-  <tr>
-    <td>U0001</td>
-    <td>Maria Anders</td>
-    <td>pdf</td>
-    <td>1</td>
-    <td>5</td>
-    <td>No</td>
-    <td>page 1</td>
-    <td>Yes</td>
-    <td>-</td>
-    <td>00:20:00</td>
-    <td>R.500.00</td>
-  </tr>
-  <tr>
-    <td>U0002</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
-    <td>1</td>
-    <td>5</td>
-    <td>No</td>
-    <td>page 1</td>
-    <td>Yes</td>
-    <td>-</td>
-    <td>00:20:00</td>
-    <td>R.500.00</td>
-    
-  </tr>
-  <tr>
-    <td>U0003</td>
-    <td>Roland Mendel</td>
-    <td>Austria</td>
-    <td>1</td>
-    <td>5</td>
-    <td>No</td>
-    <td>page 1</td>
-    <td>Yes</td>
-    <td>-</td>
-    <td>00:20:00</td>
-    <td>R.500.00</td>
-  </tr>
-  
 </table>
 
 </body>

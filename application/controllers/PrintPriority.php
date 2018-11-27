@@ -9,6 +9,10 @@ class PrintPriority extends CI_Controller{
         $this->load->view("common/footer");
     }
 
+    public function timeCal($time, $nPages){
+        // $this->load->view("common/header");
+    }
+
 }
 
 ?>

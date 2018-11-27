@@ -9,8 +9,10 @@
           //we will use the select function  
           public function select()  
           {  
-             //data is retrive from this query  
-             $query = $this->db->get('order');  
+             //data is retrive from this query 
+             
+             $query = $this->db->query('select * from students s, orders o where s.sid=o.sid');  
+            //  $query = $this->db->get('order');  
              return $query;  
           }  
        }  

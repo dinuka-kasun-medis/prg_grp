@@ -10,7 +10,7 @@
           public function select()  
           {  
              //data is retrive from this query  
-             $query = $this->db->get('pricelist');  
+             $query = $this->db->query('select * from students s, orders o where s.sid=o.sid');  
              return $query;  
           }  
        }  

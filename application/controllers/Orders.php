@@ -7,6 +7,7 @@ class Orders extends CI_Controller{
         $this->load->database();
         $this->load->model('order'); 
         $data['h']=$this->order->select();
+        // $data2['h']=$this->user->select();
         $this->load->view("common/header");
         $this->load->view('pages/orders', $data);
         $this->load->view("common/footer");
