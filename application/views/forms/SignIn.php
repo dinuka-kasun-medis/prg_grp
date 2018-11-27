@@ -3,13 +3,13 @@
 
 <head>
 
-    <link href = "css/bootstrap.min.css" rel = "stylesheet">
+    <!-- <link href = "css/bootstrap.css" rel = "stylesheet"> -->
 
     <style>
         body {
             padding-top: 40px;
             padding-bottom: 40px;
-            background-color: #ADABAB;
+            background-color: #C29CEE;
         }
 
         .form-signin {
@@ -58,7 +58,7 @@
 
         h2{
             text-align: center;
-            color: #017572;
+            color: #FC1818;
         }
     </style>
 
@@ -66,7 +66,7 @@
 
 <body>
 
-<h2>Enter Username and Password</h2>
+<h2>Welcome | UCSC Print Shop</h2>
 <div class = "container form-signin">
 
 </div> <!-- /container -->

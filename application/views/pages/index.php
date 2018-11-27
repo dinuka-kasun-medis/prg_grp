@@ -3,10 +3,7 @@
     <br>
     <br>
     <br>
-        
-    </section> 
-    
-    
+    </section>  
     <section class="project-sart">
         <div class="row">
             <div class="col-sm-1">
@@ -21,33 +18,6 @@
                     create a new user account.</h6>
                 
             </div>
-
-            <!-- <div class="col-sm-4">
-                <div class="slideshow-container">
-
-                <div class="mySlides fade">
-                <div class="numbertext">1 / 3</div>
-                <img src='images/blog1.jpg' style="width:20%">
-                <div class="text">Caption Text</div>
-                </div>
-
-                <div class="mySlides fade">
-                <div class="numbertext">2 / 3</div>
-                <img src='images/blog2.jpg' style="width:20%">
-                <div class="text">Caption Two</div>
-                </div>
-
-                <div class="mySlides fade">
-                <div class="numbertext">3 / 3</div>
-                <img src="images/blog3.jpg" style="width:20%">
-                <div class="text">Caption Three</div>
-                </div>
-
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-                </div>
-            </div> -->
         </div>
     </section>
 
@@ -68,7 +38,7 @@
                 <div class="col-md-4 contact-details">
                     <address class="hours">
                         Opening Hours : <br/>
-                        <span>Mo-Fr 11:00-00:00, Sa-Su 15:00-00:00</span>
+                        <span>Mo-Fr 07:00-16:00</span>
                     </address>
                 </div>
                 <div class="col-md-4 contact-details">

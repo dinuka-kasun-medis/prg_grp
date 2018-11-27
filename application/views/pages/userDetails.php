@@ -26,7 +26,7 @@ tr:nth-child(even) {
     <th>Email</th>
     <th>Telephone</th>
     <th>Faculty</th>
-    <th>Password</th>
+    <!-- <th>Password</th> -->
 
   </tr>
   <?php  
@@ -38,7 +38,7 @@ tr:nth-child(even) {
       <td><?php echo $row->lname;?></td>  
       <td><?php echo $row->email;?></td>
       <td><?php echo $row->faculty;?></td>  
-      <td><?php echo $row->password;?></td>  
+      <!-- <td><?php echo $row->password;?></td>   -->
       </tr>  
     <?php }  
   ?>  
