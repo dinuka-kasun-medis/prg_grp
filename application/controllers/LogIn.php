@@ -4,58 +4,53 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class LogIn extends CI_Controller {
 
 	public function index()
-	{
-		$this->load->view("common/header");
-        $this->load->view("forms/LogInForm");
-
-	}
-
-	public function process()
     {
-        $this->load->library('form_validation');
-        $this->load->database();
+        $this->load->library('session');
+        if ($this->session->userdata("logged")) {
+            echo "You are already logged in.";
+            return;
+        }
+        {
+            $this->load->view("common/header");
+            $this->load->view("forms/SignIn");
 
-        $this->form_validation->set_rules(
-            'faculty',
-            'Faculty',
-            'required'
-        );
+        }
+    }
 
-        $this->form_validation->set_rules(
-            'email',
-            'Email',
-            'required'
-        );
+    public function login_student(){
+        $this->load->library('session');
+        if($this->session->userdata("logged")){
+            echo "You are already logged in.";
+            return;
+        }
+        try{
+            if(!isset($_POST['email']) || !isset($_POST['password'])) throw new Exception();
 
-        $this->form_validation->set_rules(
-            'password',
-            'Password',
-            'required'
-        );
+            $email = $_POST['email'];
+            $password = $_POST['password'];
 
-        $this->form_validation->set_rules(
-            'cpassword',
-            'Confirm Password',
-            'required|matches[password]'
-        );
+            $this->load->database();
+            $this->db->select("password");
+            $this->db->from("students");
+            $this->db->where("email", $email);
+            $query = $this->db->get();
 
-
-        if($this->form_validation->run() == false){
-            throw new Exception();
+            foreach($query->result() as $row){
+                if($row->password == $password){
+                    $this->load->library('session');
+                    $this->session->set_userdata('logged', true);
+                    $this->session->set_userdata('type', $row->type);
+                    $this->session->set_userdata('user_id', $row->user_id);
+                    $this->session->set_userdata('fname', $row->fname);
+                    redirect(base_url("dashboard"), 'location');
+                }
+                break;
+            }
+            redirect(base_url("log-in")."?login=false", 'location');
+        }
+        catch(Exception $ex) {
+            redirect(base_url("log-in")."?login=false", 'location');
         }
 
-        $fname = $_POST['fname'];
-        $lname = $_POST['lname'];
-        $email = $_POST['email'];
-        $password = $_POST['password'];
-        $faculty = $_POST['faculty'];
-
-        $this->load->database();
-        $this->db->set("fname",$fname);
-        $this->db->set("lname",$lname);
-        $this->db->set("email",$email);
-        $this->db->set("password",$password);
-        $this->db->set("faculty", $faculty);
-        if(!$this->db->insert("students")) throw new Exception();
     }
 }

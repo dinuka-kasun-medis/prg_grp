@@ -60,6 +60,8 @@ $route['process_add'] = 'SignUp/process_add';
 $route['uploader'] = 'Upload';
 
 $route['login'] = 'LogIn/index';
+$route['log-in'] = 'LogIn/login_student';
+$route['logout'] = 'auth/logout';
 
 $route['dashboard']= 'DashboardCustomer/index';
 $route['jobcard']= 'DashboardCustomer/jobcard';
