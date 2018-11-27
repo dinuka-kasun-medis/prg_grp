@@ -23,7 +23,7 @@
 		<h1>Welcome</h1>
 		
 		<form class = "form-signin" role = "form" action = "<?=base_url("login/login_student")?>" method = "post">
-			<input type="text" name = "email" placeholder = "Username" required>
+			<input type="text" name = "email" placeholder = "Your Email" required>
 			<input type="password" name = "password" required placeholder="Password">
 			<button type="submit"  name = "login" id="login-button">Login</button>
 		</form>

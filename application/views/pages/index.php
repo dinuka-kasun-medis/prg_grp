@@ -84,6 +84,7 @@
 main {
   padding-top: 3rem;
   padding-bottom: 2rem;
+  /* background-color: #8A6BCA; */
 }
 
 .extra-margins {
@@ -91,11 +92,11 @@ main {
   margin-bottom: 2.5rem;
 }
 .navbar {
-  background-color: #3b3b3f;
+  background-color:#8A6BCA;/* #3b3b3f;*/
 }
 
 footer.page-footer {
-  background-color: #3b3b3f;
+  background-color: #8A6BCA;/* #3b3b3f;*/
   margin-top: 2rem;
 }
 

@@ -45,7 +45,6 @@
     </div>
 </header> -->
 
-<!DOCTYPE html>
 
 <head>
     <title>UCSC PrintShop OnLine </title>
