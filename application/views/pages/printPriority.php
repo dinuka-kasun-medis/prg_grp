@@ -9,7 +9,7 @@ table {
 
 td, th {
     border: 1px solid #dddddd;
-    text-align: center;
+    text-align: left;
     padding: 8px;
     
 }
@@ -30,13 +30,27 @@ tr:nth-child(even) {
     <th>Price</th>
     <th>Print</th>
   </tr>
+
+  <?php  
+    foreach ($h->result() as $row){  
+      ?><tr>  
+      <td><?php echo $row->sid;?></td>  
+      <td><?php echo $row->fname;?></td>
+      <td><?php echo $row->lname ;?></td>  
+      <td><?php echo $row->nprintouts ;?></td>
+      <td><?php echo $row->npcopies ;?></td>  
+      <td><?php echo $row->clrprint ;?></td>
+      </tr>  
+    <?php }  
+?>
+
   <tr>
     <td>U0001</td>
     <td>Maria Anders</td>
     <td>pdf</td>
     <td>Time</td>
     <td>Price</td>
-    <td><a href="<?=base_url('DashboardAdmin')?>" class="btn red">Print</a></td>
+    <td><a href="<?=base_url('Email')?>" class="btn red">email</a></td>
   </tr>
   <tr>
     <td>U0002</td>
@@ -44,7 +58,8 @@ tr:nth-child(even) {
     <td>Mexico</td>
     <td>Time</td>
     <td>Price</td>
-    <td>Print</td>
+    <td><a href="<?=base_url('public/pdf/R.pdf')?>" target="_blank">Show My Pdf</a></td>
+    
   </tr>
   <tr>
     <td>U0003</td>

@@ -74,11 +74,11 @@
 <div class = "container">
 
     <form class = "form-signin" role = "form"
-          action = "<?=base_url("dashboard")?>" method = "post">
+          action = "<?=base_url("login/login_student")?>" method = "post">
 
-        <label>Username:</label>
+        <label>Email:</label>
         <input type = "text" class = "form-control"
-               name = "name" placeholder = "" required autofocus><br>
+               name = "email" placeholder = "" required autofocus><br>
 
         <label>Password:</label>
         <input type = "password" class = "form-control"
@@ -87,8 +87,6 @@
         <button class = "btn btn-lg btn-primary btn-block" type = "submit"
                 name = "login">Login</button>
     </form>
-
-    Click here to clean <a href = "logout.php" tite = "Logout">Session.
 
 </div>
 

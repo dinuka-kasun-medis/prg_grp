@@ -12,7 +12,7 @@
                 <div class="form_title">Log In</div>
 
 
-                <form class="column form_content" method="POST" action="<?=base_url("login/process")?>">
+                <form class="column form_content" method="POST" action="<?=base_url("dashboard")?>">
 
                     <div class="row col-md-12">
                         <div class="form_item col-md-12">
