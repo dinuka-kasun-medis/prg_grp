@@ -10,7 +10,7 @@
           public function select()  
           {  
              //data is retrive from this query  
-             $query = $this->db->query('select * from students s, orders o where s.sid=o.sid');  
+            //  $query = $this->db->query('select * from students s, orders o where s.sid=o.sid');  
              return $query;  
           }  
        }  

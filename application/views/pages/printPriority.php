@@ -26,7 +26,7 @@ tr:nth-child(even) {
     <th>User Id</th>
     <th>Name</th>
     <th>Pdf</th>
-    <th>Time</th>
+    <!-- <th>Time</th> -->
     <th>Price</th>
     <th>Print</th>
   </tr>
@@ -35,24 +35,53 @@ tr:nth-child(even) {
     foreach ($h->result() as $row){  
       ?><tr>  
       <td><?php echo $row->sid;?></td>  
-      <td><?php echo $row->fname;?></td>
-      <td><?php echo $row->lname ;?></td>  
-      <td><?php echo $row->nprintouts ;?></td>
-      <td><?php echo $row->npcopies ;?></td>  
-      <td><?php echo $row->clrprint ;?></td>
+      <td><?php 
+        echo $row->fname;
+        echo " ";
+        echo $row->lname;
+      ?></td>
+      <?php
+        $prt1 = "public/pdf/";
+        $name = $row->oid;
+        $prt2 = ".pdf";
+        $link = $prt1.$name.$prt2;
+      ?>
+      <td><a href="<?=base_url($link)?>" target="_blank">View Pdf</a>
+        <?php
+        ?>
+      </td>  
+      <!-- <td><?php echo $row->nprintouts ;?></td> -->
+      <td><?php echo $row->npcopies ;?></td>
+
+      <td>
+        <?php
+          $prt1 = "public/pdf/";
+          $name = $row->oid;
+          $prt2 = ".pdf";
+          $link = $prt1.$name.$prt2;
+
+          $mp1 = "Email/index/";
+          $msg = $mp1."Your pdf id : ".$name." started to print it will take around 30 minits";
+        ?>
+        <!-- <a href="<?=base_url('Email')?>" class="btn red">Start Printing</a> -->
+        <!-- <td><a href="<?=base_url($link)?>" target="_blank">View Pdf</a> -->
+        <a href="<?php echo base_url($msg) ?>" href="<?=base_url($link)?>" target="_blank" class="btn red">Starting Printing</a>
+      </td>
+      
       </tr>  
     <?php }  
 ?>
 
-  <tr>
+  <!-- <tr>
     <td>U0001</td>
     <td>Maria Anders</td>
     <td>pdf</td>
     <td>Time</td>
     <td>Price</td>
     <td><a href="<?=base_url('Email')?>" class="btn red">email</a></td>
-  </tr>
-  <tr>
+  </tr> -->
+
+  <!-- <tr>
     <td>U0002</td>
     <td>Francisco Chang</td>
     <td>Mexico</td>
@@ -68,7 +97,7 @@ tr:nth-child(even) {
     <td>Time</td>
     <td>Price</td>
     <td>Print</td>
-  </tr>
+  </tr> -->
   
 </table>
 
