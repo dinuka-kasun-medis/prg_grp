@@ -35,8 +35,7 @@ tr:nth-child(even) {
   </tr>
 
 <?php  
-    foreach ($h->result() as $row)  
-    {  
+    foreach ($h->result() as $row){  
       ?><tr>  
       <td><?php echo $row->sid;?></td>  
       <td><?php echo $row->fname;?></td>
@@ -51,7 +50,7 @@ tr:nth-child(even) {
       <td><?php echo $row->binding;?></td>  
       </tr>  
     <?php }  
-  ?>
+?>
 
 </table>
 

@@ -30,6 +30,20 @@ tr:nth-child(even) {
     <th>Price</th>
     <th>Print</th>
   </tr>
+
+  <?php  
+    foreach ($h->result() as $row){  
+      ?><tr>  
+      <td><?php echo $row->sid;?></td>  
+      <td><?php echo $row->fname;?></td>
+      <td><?php echo $row->lname ;?></td>  
+      <td><?php echo $row->nprintouts ;?></td>
+      <td><?php echo $row->npcopies ;?></td>  
+      <td><?php echo $row->clrprint ;?></td>
+      </tr>  
+    <?php }  
+?>
+
   <tr>
     <td>U0001</td>
     <td>Maria Anders</td>
