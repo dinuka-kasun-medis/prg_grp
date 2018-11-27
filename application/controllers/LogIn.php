@@ -53,4 +53,14 @@ class LogIn extends CI_Controller {
         }
 
     }
+    public function logout(){
+        $this->load->library('session');
+        if(!$this->session->userdata("logged")){
+            echo "You are not logged in.";
+            return;
+        }
+        $this->load->library('session');
+        $this->session->sess_destroy();
+        redirect(base_url(), 'location');
+    }
 }
