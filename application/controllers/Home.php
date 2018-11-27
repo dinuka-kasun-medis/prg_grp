@@ -7,7 +7,7 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('common/headerindex');
 		$this->load->view("pages/index");
-		$this->load->view('common/footer.php');
+		// $this->load->view('common/footer.php');
 		// $this->load->database();  
 		// //load the model  
 		// $this->load->model('user');  

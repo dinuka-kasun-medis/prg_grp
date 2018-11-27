@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="<?=base_url('assets/css/bootstrap.min.css')?>">
     <link rel="stylesheet" type="text/css" href="<?=base_url('assets/css/jQuery.lightninBox.css')?>">
     <link rel="stylesheet" type="text/css" href="<?=base_url('assets/css/owl.carousel.min.css')?>">
+    
 </head>
 
 <footer>
@@ -36,6 +37,6 @@
                 <a href="">Contact</a>
             </li>
         </ul> -->
-        <h5>C) 2018. All Rights Reserved. <a href="#">Programming Group</a></h5>
+        <h5>© 2018. All Rights Reserved. <a href="#">Programming Group 33</a></h5>
     </div>
 </footer>

@@ -36,6 +36,7 @@
 
     
 </style>
+<link rel="stylesheet" type="text/css" href="<?=base_url('assets/css/mainstyle.css')?>">
 
 <link rel="stylesheet" type="text/css" href="<?=base_url("assets/css/custom_modal_styles.css")?>">
 
