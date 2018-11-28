@@ -90,7 +90,7 @@
 
   <div class="wrapper">
 	<div class="container">
-		<h1>Sigh Up</h1>
+		<h1>Sign Up</h1>
 		
 		<form class="column form_content" method="POST" action="<?=base_url("signup/process_add")?>">
             <input type="text" name="fname" placeholder = "Enter First Name" required>
