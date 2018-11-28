@@ -22,7 +22,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Login</title>
+    <title>Uploader</title>
     <link rel="stylesheet" type="text/css" href="<?=base_url('assets/css/mainstyle.css')?>">
 
 
