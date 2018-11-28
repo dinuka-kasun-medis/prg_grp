@@ -12,7 +12,7 @@
                 <div class="form_title">Job Card</div>
 
 
-                <form  class="column form_content" method="POST" action="<?=base_url("jobcard")?>">
+                <form  class="column form_content" method="POST" action="<?=base_url("jobadd")?>">
 
                     <div class="row col-md-12">
                         <div class="form_item col-md-6">
