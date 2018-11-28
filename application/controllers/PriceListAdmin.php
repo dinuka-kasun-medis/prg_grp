@@ -12,4 +12,14 @@ class PriceListAdmin extends CI_Controller {
 			$this->load->view('pages/priceList' ,$data);
 			$this->load->view('common/footer.php');
     }
+
+    public function update_data(){
+    	$pid = $this->uri->segment(3);
+    	$this->load->model("model_Price");
+    	$data["query"] = $this->model_Price->update_price($pid);
+    	//$data["fetch_data"] = $this->model_Price->fetch_data();
+    	$this->load->view("forms/editPriceView" ,$data);
+
+    }
+
 }

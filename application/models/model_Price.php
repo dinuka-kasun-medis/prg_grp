@@ -5,6 +5,12 @@
       		$q=$this->db->get('pricelist');
       		return $q;
     	}
+
+    	function update_price($pid){
+    		$this->db->where("pid" ,$pid);
+    		$query = $this->db->get("pricelist");
+    		return $query;
+    	}
 		
 	}
  ?>
