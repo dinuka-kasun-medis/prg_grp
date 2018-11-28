@@ -5,6 +5,7 @@
 
 <section>
 <div class="container">
+
   <div class="box first">
     <span class="icon-cont"><i class="fa fa-user"></i></span>
 
@@ -15,15 +16,14 @@
 
   <div class="box second">
     <span class="icon-cont"><i class="fa fa-list"></i></span>
-    <a href="<?=base_url("orders")?>">
+  
     <h3>Orders</h3>
 
   </div>
 
   <div class="box third">
     <span class="icon-cont"><i class="fa fa-history"></i></span>
-    <a href="<?=base_url("orderHistory")?>">
-    <h3>History</h3>
+  <h3>History</h3>
 
   </div>
 
