@@ -4,18 +4,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 <body>
     <section>
         <br>
-        <br>
-        <br>
+        <div class="form_title text-center text-danger"><h1>Price List</h1></div>
     </section>
 
     <section>
         <div class="row">
             <div class="col-md-6 mx-auto form_container">
 
-                <div class="form_title">Price List</div>
+                
                 <table class="table table-hover">
                     
-                    <thead class="text-danger">
+                    <thead class="thead-dark">
                         <tr scope="col" class="success">
                             <th>Price ID</th>
                             <th>Description</th>

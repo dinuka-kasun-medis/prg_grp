@@ -1,12 +1,12 @@
 <head>
-
+<div class="form_title text-center text-danger"><h1>User Details</h1></div>
 </head>
 <body>
 
 <div class="row">
    <div class="col-md-10 mx-auto form_container">
         <table class="table table-hover">
-            <thead>
+            <thead class="thead-dark">
                 <tr scope="col" class="success">
                     <th>ID</th>
                     <th>First Name</th>
