@@ -1,7 +1,12 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?>
 <!DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+	
     <style>
         * {box-sizing: border-box}
 
@@ -51,7 +56,7 @@
 <button class="tablink" onclick="openPage('Deals', this, 'orange')">Deals</button>
 
 <div id="PriceList" class="tabcontent">
-
+    <?php $this->load->view('forms/PriceList'); ?>        
 </div>
 
 <div id="JobCard" class="tabcontent">
@@ -86,4 +91,6 @@
 </script>
 
 </body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-5f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 </html>
