@@ -1,3 +1,6 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');?>
+
 <body>
     <section>
         <br>
@@ -14,9 +17,9 @@
                     
                     <thead class="text-danger">
                         <tr scope="col" class="success">
-                            <th>PID</th>
+                            <th>Price ID</th>
                             <th>Description</th>
-                            <th>price</th>
+                            <th>Price</th>
                         </tr>
                     </thead>
                     <?php

@@ -90,13 +90,13 @@
 <link rel="stylesheet" type="text/css" href="<?=base_url('assets/js/admindashboard.js')?>">
 <link rel="stylesheet" type="text/css" href="<?=base_url('assets/css/mainstyle.css')?>">
 <body>
-
-<section>
-    <div class="container">
+    <br><br><br><br>
+    
+    <div class="col-md-8 mx-auto form_container">
 
         <div class="box first">
             <span class="icon-cont"><i class="fa fa-user"></i></span>
-            <a href="<?=base_url("")?>">
+            <a href="<?=base_url("PriceList/index")?>">
                 <h3>Price List</h3>
 
         </div>
@@ -121,8 +121,11 @@
                 <h3>Print History</h3>
 
         </div>
+
+        </div>
     </div>
+   
 </body>
 
-</section>
+
 
