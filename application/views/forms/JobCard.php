@@ -2,7 +2,6 @@
     <section>
         <br>
         <br>
-        <br>
     </section>
 
     <section>
