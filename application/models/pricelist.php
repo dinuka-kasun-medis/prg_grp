@@ -1,17 +1,10 @@
-<?php  
-       class pricelist extends CI_Model  
-       {  
-          function __construct()  
-          {  
-             // Call the Model constructor  
-             parent::__construct();  
-          }  
-          //we will use the select function  
-          public function select()  
-          {  
-             //data is retrive from this query  
-            //  $query = $this->db->query('select * from students s, orders o where s.sid=o.sid');  
-             return $query;  
-          }  
-       }  
-    ?>  
+
+<?php
+    class Pricelist extends CI_Model{
+        
+        function fetch_data(){
+            $query = $this->db->get("pricelist");
+            return $query;
+        }
+    }
+?>

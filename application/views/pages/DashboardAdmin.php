@@ -4,6 +4,7 @@
 
 <section>
 <div class="container">
+
   <div class="box first">
     <span class="icon-cont"><i class="fa fa-user"></i></span>
 
@@ -13,15 +14,20 @@
 
   <div class="box second">
     <span class="icon-cont"><i class="fa fa-list"></i></span>
+
     <a href="<?=base_url("OrderDetails")?>">
+
     <h3>Orders</h3>
 
   </div>
 
   <div class="box third">
     <span class="icon-cont"><i class="fa fa-history"></i></span>
+
     <a href="<?=base_url("TotalPriceOfStudent")?>">
     <h3>Price List</h3>
+
+  <h3>History</h3>
 
   </div>
 
