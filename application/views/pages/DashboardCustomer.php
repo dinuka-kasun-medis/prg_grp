@@ -38,11 +38,12 @@
             height: 100%;
         }
 
-        #PriceList {background-color: red;}
-        #JobCard {background-color: green;}
-        #Upload {background-color: yellow;}
-        #Deals {background-color: orange;}
+        #PriceList {background-color: #8A6BCA;}
+        #JobCard {background-color: #8A6BCA;}
+        #Upload {background-color: #8A6BCA;}
+        #Deals {background-color: #8A6BCA;}/*test*/
     </style>
+    <link rel="stylesheet" type="text/css" href="<?=base_url('assets/css/mainstyle.css')?>">
 </head>
 <body>
 
