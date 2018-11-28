@@ -23,11 +23,8 @@
 
   <div class="box third">
     <span class="icon-cont"><i class="fa fa-history"></i></span>
-
-    <a href="<?=base_url("TotalPriceOfStudent")?>">
-    <h3>Price List</h3>
-
-  <h3>History</h3>
+    <a href="<?=base_url("OrderHistory")?>">
+    <h3>History</h3>
 
   </div>
 
@@ -37,6 +34,16 @@
     <h3>Print priority</h3>
 
   </div>
+  </div>
+
+  <div class="container">
+  <div class="box five">
+    <span class="icon-cont"><i class="fa fa-price"></i></span>
+    <a href="<?=base_url("PriceList")?>">
+    <h3>Price List</h3>
+
+  </div>
+
 </div>
 </body>
 
