@@ -52,4 +52,11 @@ class Jobcard extends CI_Controller {
         $this->db->set("notes", $notes);
         if(!$this->db->insert("jobcard")) throw new Exception();
     }
+
+    public function index()
+    {
+        $this->load->view("common/header");
+        $this->load->view("forms/JobCard");
+
+    }
 }
