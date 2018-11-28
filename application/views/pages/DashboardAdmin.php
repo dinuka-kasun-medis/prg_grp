@@ -39,7 +39,7 @@
   <div class="container">
   <div class="box five">
     <span class="icon-cont"><i class="fa fa-price"></i></span>
-    <a href="<?=base_url("PriceList")?>">
+    <a href="<?=base_url("PriceListAdmin")?>">
     <h3>Price List</h3>
 
   </div>

@@ -57,7 +57,7 @@ th {
           <td><?php echo $row->pid; ?></td>
           <td><?php echo $row->description; ?></td>
           <td><?php echo $row->price; ?></td>
-          <td><a href="PriceList/update_data/?oid=<?php echo $row->pid;?>">Edit</a></td>
+          <td><a href="PriceListAdmin/update_data/?oid=<?php echo $row->pid;?>">Edit</a></td>
           
 
         </tr>
@@ -92,7 +92,7 @@ th {
 
     var pid = $(this).attr("pid");
     if(confirm("Are  you sure want to delete this?")){
-      window.location =>"<?php echo base_url(); ?> PriceList/update_data/"+pid;
+      window.location =>"<?php echo base_url(); ?> PriceListAdmin/update_data/"+pid;
     }else{
       return false;
     }
