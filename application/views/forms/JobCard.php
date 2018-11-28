@@ -1,6 +1,5 @@
-<body>
+ <body>
     <section>
-        <br>
         <br>
         <br>
     </section>
@@ -12,7 +11,7 @@
                 <div class="form_title">Job Card</div>
 
 
-                <form  class="column form_content" method="POST" action="<?=base_url("jobcard")?>">
+                <form  class="column form_content" method="POST" action="<?=base_url("jobadd")?>">
 
                     <div class="row col-md-12">
                         <div class="form_item col-md-6">
@@ -74,3 +73,97 @@
     </section>
 </body>
 
+<!-- head>-->
+<!--  <meta charset="UTF-8">-->
+<!--  <title>Login</title>-->
+<!--  <link rel="stylesheet" type="text/css" href="--><?//=base_url('assets/css/mainstyle.css')?><!--">-->
+<!---->
+<!---->
+<!--	<script>-->
+<!--		$("#login-button").click(function(event){-->
+<!--			event.preventDefault();-->
+<!---->
+<!--			$('form').fadeOut(500);-->
+<!--			$('.wrapper').addClass('form-success');-->
+<!--		});-->
+<!--	</script>-->
+<!---->
+<!--  -->
+<!--</head>-->
+<!---->
+<!--<body>-->
+<!--<section>-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-5 mx-auto form_container">-->
+<!--                <div class="wrapper">-->
+<!--                    <div class="container">-->
+<!--                        <h1>Job Card</h1>-->
+<!--                        -->
+<!--                        <form class="column form_content" method="POST" action="--><?//=base_url("signup/jobadd")?><!--">-->
+<!---->
+<!--                            <div class="row col-md-12">-->
+<!--                                <div class="col-md-6">-->
+<!--                                    <input type="text" name="job_num" placeholder = "Job Number" required>-->
+<!--                                </div>-->
+<!--                                <div class="col-md-6">-->
+<!--                                    <input type="text" name="tittle" placeholder = "Title" required>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!---->
+<!--                            <div class="row col-md-12">-->
+<!--                                <div class="col-md-6">-->
+<!--                                    <input type="text" name = "printouts" placeholder = "Num. of Printouts" required>-->
+<!--                                </div>-->
+<!--                                <div class="col-md-6">-->
+<!--                                    <input type="text" name="photocopies" placeholder = "Num. of Photocopies" required>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!---->
+<!--                            <div class="row col-md-12">-->
+<!--                                <div class="col-md-6">-->
+<!--                                    <input type="text" name="color" required placeholder="Page num for Color Printing">-->
+<!--                                </div>-->
+<!--                                <div class="col-md-6">-->
+<!--                                    <input type="text" name="laminating" required placeholder="Page num for Color Laminating">-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!---->
+<!--                            <div class="row col-md-12">-->
+<!--                                <div class="col-md-6">-->
+<!--                                    <input type="text" name="binding" required placeholder="Page num for Color Binding">-->
+<!--                                </div>-->
+<!--                                <div class="col-md-6">-->
+<!--                                    <input type="text" name="notes" required placeholder="Notes">-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!---->
+<!--                            <button type="submit"  name = "login" id="login-button">Done</button>-->
+<!--                        </form>-->
+<!--                    </div>-->
+<!--                    -->
+<!--                    <ul class="bg-bubbles">-->
+<!--                        <li></li>-->
+<!--                        <li></li>-->
+<!--                        <li></li>-->
+<!--                        <li></li>-->
+<!--                        <li></li>-->
+<!--                        <li></li>-->
+<!--                        <li></li>-->
+<!--                        <li></li>-->
+<!--                        <li></li>-->
+<!--                        <li></li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--    </div>-->
+<!--</section>-->
+<!--  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>-->
+<!---->
+<!--  -->
+<!---->
+<!--    <!-- <script  src="js/index.js"></script> -->-->
+<!---->
+<!---->
+<!---->
+<!---->
+<!--</body>-->

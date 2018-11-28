@@ -1,5 +1,6 @@
 <link rel="stylesheet" type="text/css" href="<?=base_url('assets/css/admindashboardcss.css')?>">
 <link rel="stylesheet" type="text/css" href="<?=base_url('assets/js/admindashboard.js')?>">
+<link rel="stylesheet" type="text/css" href="<?=base_url('assets/css/mainstyle.css')?>">
 <body>
 
 <section>

@@ -1,94 +1,55 @@
-
-<html>
-
 <head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="<?=base_url('assets/css/mainstyle.css')?>">
 
-    <link href = "css/bootstrap.min.css" rel = "stylesheet">
 
-    <style>
-        body {
-            padding-top: 40px;
-            padding-bottom: 40px;
-            background-color: #ADABAB;
-        }
+	<script>
+		$("#login-button").click(function(event){
+			event.preventDefault();
 
-        .form-signin {
-            max-width: 330px;
-            padding: 15px;
-            margin: 0 auto;
-            color: #017572;
-        }
+			$('form').fadeOut(500);
+			$('.wrapper').addClass('form-success');
+		});
+	</script>
 
-        .form-signin .form-signin-heading,
-        .form-signin .checkbox {
-            margin-bottom: 10px;
-        }
-
-        .form-signin .checkbox {
-            font-weight: normal;
-        }
-
-        .form-signin .form-control {
-            position: relative;
-            height: auto;
-            -webkit-box-sizing: border-box;
-            -moz-box-sizing: border-box;
-            box-sizing: border-box;
-            padding: 10px;
-            font-size: 16px;
-        }
-
-        .form-signin .form-control:focus {
-            z-index: 2;
-        }
-
-        .form-signin input[type="email"] {
-            margin-bottom: -1px;
-            border-bottom-right-radius: 0;
-            border-bottom-left-radius: 0;
-            border-color:#017572;
-        }
-
-        .form-signin input[type="password"] {
-            margin-bottom: 10px;
-            border-top-left-radius: 0;
-            border-top-right-radius: 0;
-            border-color:#017572;
-        }
-
-        h2{
-            text-align: center;
-            color: #017572;
-        }
-    </style>
-
+  
 </head>
 
 <body>
 
-<h2>Enter Username and Password</h2>
-<div class = "container form-signin">
-
-</div> <!-- /container -->
-
-<div class = "container">
-
-    <form class = "form-signin" role = "form"
-          action = "<?=base_url("login/login_student")?>" method = "post">
-
-        <label>Email:</label>
-        <input type = "text" class = "form-control"
-               name = "email" placeholder = "" required autofocus><br>
-
-        <label>Password:</label>
-        <input type = "password" class = "form-control"
-               name = "password" placeholder = "" required><br>
-
-        <button class = "btn btn-lg btn-primary btn-block" type = "submit"
-                name = "login">Login</button>
-    </form>
-
+  <div class="wrapper">
+	<div class="container">
+		<h1>Welcome</h1>
+		
+		<form class = "form-signin" role = "form" action = "<?=base_url("login/login_student")?>" method = "post">
+			<input type="text" name = "email" placeholder = "Your Email" required>
+			<input type="password" name = "password" required placeholder="Password">
+			<button type="submit"  name = "login" id="login-button">Login</button>
+		</form>
+	</div>
+	
+	<ul class="bg-bubbles">
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
 </div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+  
+
+    <!-- <script  src="js/index.js"></script> -->
+
+
+
 
 </body>
-</html>
+

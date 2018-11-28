@@ -37,6 +37,9 @@
     
 </style>
 
+<link rel="stylesheet" type="text/css" href="<?=base_url('assets/css/mainstyle.css')?>">
+<link rel="stylesheet" type="text/css" href="<?=base_url('assets/css/mainstyle.css')?>">
+
 <link rel="stylesheet" type="text/css" href="<?=base_url("assets/css/custom_modal_styles.css")?>">
 
 <div id="header" class="row align-middle" style="width:100%; margin:0px;">
@@ -55,7 +58,7 @@
 
         <div style="margin-right:20px;">
             <div>
-                <a href="https://www.facebook.com/PahasaraUCSC/">
+                <!-- <a href="https://www.facebook.com/PahasaraUCSC/">
                     <img src="<?=base_url('images/facebook.png')?>" width="50px">
                 </a>
                 <a href="https://twitter.com/UCSC_LK">
@@ -69,7 +72,9 @@
                 </a>
                 <a href="https://www.youtube.com/channel/UC0gdcqEL6ZZeT67s0IbOrHg">
                     <img src="<?=base_url('images/youtube.png')?>" width="36px">
-                </a>
+                </a> -->
+                <a href="<?=base_url("Home")?>" class="btn red">Sign Out</a>
+                <!-- <a href="<?=base_url("signup")?>" class="btn red">Sign Up</a><br> -->
             </div>
         </div>
         <div>

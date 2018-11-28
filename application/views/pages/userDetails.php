@@ -2,6 +2,7 @@
 
 </head>
 <body>
+
 <div class="row">
    <div class="col-md-10 mx-auto form_container">
         <table class="table table-hover">
@@ -39,7 +40,6 @@
               ?>
          </table>
       </div>
-  </div>    
-
+  </div>
 </body>
 

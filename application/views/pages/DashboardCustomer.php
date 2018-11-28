@@ -4,6 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <!DOCTYPE html>
 <html>
 <head>
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
 	
@@ -38,15 +39,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         .tabcontent {
             color: white;
             display: none;
-            padding: 100px 20px;
+            padding: 10px 20px;
             height: 100%;
         }
 
-        #PriceList {background-color: red;}
-        #JobCard {background-color: green;}
-        #Upload {background-color: yellow;}
-        #Deals {background-color: orange;}
+        #PriceList {background-color: #8A6BCA;}
+        #JobCard {background-color: #8A6BCA;}
+        #Upload {background-color: #8A6BCA;}
+        #Deals {background-color: #8A6BCA;}/*test*/
     </style>
+    <link rel="stylesheet" type="text/css" href="<?=base_url('assets/css/mainstyle.css')?>">
 </head>
 <body>
 

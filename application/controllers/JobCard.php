@@ -10,27 +10,21 @@ class Jobcard extends CI_Controller {
         $this->load->database();
 
         $this->form_validation->set_rules(
-            'faculty',
-            'Faculty',
+            'job_num',
+            'Job Number',
             'required'
         );
 
         $this->form_validation->set_rules(
-            'email',
-            'Email',
+            'printouts',
+            'Number of Print Outs',
             'required'
         );
 
         $this->form_validation->set_rules(
-            'password',
-            'Password',
+            'photocopies',
+            'Number of Photocopies',
             'required'
-        );
-
-        $this->form_validation->set_rules(
-            'cpassword',
-            'Confirm Password',
-            'required|matches[password]'
         );
 
 
