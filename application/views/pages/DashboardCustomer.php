@@ -90,9 +90,9 @@
 <link rel="stylesheet" type="text/css" href="<?=base_url('assets/js/admindashboard.js')?>">
 <link rel="stylesheet" type="text/css" href="<?=base_url('assets/css/mainstyle.css')?>">
 <body>
-    <br><br><br><br>
-    
-    <div class="col-md-8 mx-auto form_container">
+
+<section>
+    <div class="container">
 
         <div class="box first">
             <span class="icon-cont"><i class="fa fa-user"></i></span>
@@ -121,11 +121,8 @@
                 <h3>Print History</h3>
 
         </div>
-
-        </div>
     </div>
-   
 </body>
 
-
+</section>
 

@@ -4,7 +4,7 @@
  <!DOCTYPE html>
  <html>
  <head>
-  <title>Order Details</title>
+  <title>Price Details</title>
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
@@ -39,15 +39,12 @@ th {
 <div class ="table-responsive">
   <table class = "table table-bordered" >
     <tr>
-      <th>Order id</th>
-      <th>Number of Printouts</th>
-      <th>Number of Copies</th>
-      <th>Color or Not</th>
-      <th>Laminating</th>
-      <th>Binding</th>
-      <th>State</th>
-      <th>Student id</th>
-      <th>Delete Record</th>
+      <th>Print id</th>
+      <th>Discription</th>
+      <th>Price</th>
+      <th>Edit</th>
+      
+      
       
     <tr>
 
@@ -57,17 +54,11 @@ th {
         ?>
 
         <tr>
-          <td><?php echo $row->oid; ?></td>
-          <td><?php echo $row->nprintouts; ?></td>
-          <td><?php echo $row->npcopies; ?></td>
-          <td><?php echo $row->clrprint; ?></td>
-          <td><?php echo $row->laminate; ?></td>
-          <td><?php echo $row->binding; ?></td>
-          <td><?php echo $row->note; ?></td>
-          <td><?php echo $row->sid; ?></td>
+          <td><?php echo $row->pid; ?></td>
+          <td><?php echo $row->description; ?></td>
+          <td><?php echo $row->price; ?></td>
+          <td><a href="PriceList/update_data/?oid=<?php echo $row->pid;?>">Edit</a></td>
           
-          
-          <td><a href="OrderDetails/delete_data/?oid=<?php echo $row->oid;?>">Delete</a></td>
 
         </tr>
         <?php     
@@ -97,11 +88,11 @@ th {
   
   $(document).ready(function(){
 
-    $('.delete_data').click(function())
+    $('.update_data').click(function())
 
-    var oid = $(this).attr("oid");
+    var pid = $(this).attr("pid");
     if(confirm("Are  you sure want to delete this?")){
-      window.location =>"<?php echo base_url(); ?> OrderDetails/delete_data/"+oid;
+      window.location =>"<?php echo base_url(); ?> PriceList/update_data/"+pid;
     }else{
       return false;
     }
