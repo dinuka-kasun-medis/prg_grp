@@ -36,24 +36,24 @@
                      <input type="text" name = "printouts" placeholder = "Number of Printouts" required>
                  </div>
                  <div class="col-md-6">
-                     <input type="text" name="photocopies" placeholder = "Number of Photocopies" required>
+                     <input type="text" name="photocopies" placeholder = "Number of Photocopies" >
                  </div>
              </div>
 
              <div class= "row">
-                 <input type="text" name = "binding" placeholder = "Number of Sets for Binding" required>
+                 <input type="text" name = "binding" placeholder = "Number of Sets for Binding" >
              </div>
 
              <div class= "row">
                  <div class="col-md-6">
-                     <input type="text" name = "color" placeholder = "Page Nums for Color Printing" required>
+                     <input type="text" name = "color" placeholder = "Page Nums for Color Printing" >
                  </div>
                  <div class="col-md-6">
-                     <input type="text" name="laminating" placeholder = "Page Numbers for Laminating" required>
+                     <input type="text" name="laminating" placeholder = "Page Numbers for Laminating" >
                  </div>
              </div>
 
-             <input type="text" name="notes" placeholder = "Notes" required>
+             <input type="text" name="notes" placeholder = "Notes">
              <button type="submit"  name = "login" id="login-button">Done</button>
          </form>
      </div>
