@@ -73,7 +73,7 @@
                 <a href="https://www.youtube.com/channel/UC0gdcqEL6ZZeT67s0IbOrHg">
                     <img src="<?=base_url('images/youtube.png')?>" width="36px">
                 </a> -->
-                <a href="<?=base_url("Home")?>" class="btn red">Sing Out</a>
+                <a href="<?=base_url("Home")?>" class="btn red">Sign Out</a>
                 <!-- <a href="<?=base_url("signup")?>" class="btn red">Sign Up</a><br> -->
             </div>
         </div>
