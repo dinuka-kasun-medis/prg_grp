@@ -1,7 +1,7 @@
 <html>
 <head>
     <title>Upload Form</title>
-    <link rel="stylesheet" type="text/css" href="<?=base_url('assets/css/mainstyle.css')?>">
+
 </head>
 <body>
 
