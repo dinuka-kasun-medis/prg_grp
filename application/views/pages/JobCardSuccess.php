@@ -1,24 +1,3 @@
-<html>
-<head>
-    <title>Upload Form</title>
-    <link rel="stylesheet" type="text/css" href="<?=base_url('assets/css/mainstyle.css')?>">
-</head>
-<body>
-
-<h3>Your file was successfully uploaded!</h3>
-
-<ul>
-    <?php foreach ($upload_data as $item => $value):?>
-        <li><?php echo $item;?>: <?php echo $value;?></li>
-    <?php endforeach; ?>
-</ul>
-
-<p><?php echo anchor('dashboard', 'Back to Dashboard!'); ?></p>
-
-</body>
-</html>
-
-
 <head>
     <meta charset="UTF-8">
     <title>Success</title>
@@ -41,19 +20,11 @@
 
 <div class="wrapper">
     <div class="container">
-        <h1>Successfully Uploaded</h1>
+        <h1>Job Added</h1>
 
         <form class="column form_content"  action="<?=base_url("dashboard")?>">
-
-            <h2>Uploaded Details . . . . </h2><br>
-
-            <ul>
-                <?php foreach ($upload_data as $item => $value):?>
-                    <li><?php echo $item;?>: <?php echo $value;?></li>
-                <?php endforeach; ?>
-            </ul>
-
-<!--            <p>--><?php //echo anchor('dashboard', 'Back to Dashboard!'); ?><!--</p>-->
+            <h3>Upload your Document via Upload Center</h3><br><br><br>
+            <h2>Thank You!</h2><br>
             <br>
             <button type="submit"  name = "" >Back to Dashboard</button>
         </form>
