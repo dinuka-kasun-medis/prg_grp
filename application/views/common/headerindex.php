@@ -127,7 +127,7 @@
                 
                 
                 <!-- <a href="<?=base_url("Home")?>" class="btn red">Sing Out</a> -->
-                <a href="<?=base_url('DashboardAdmin')?>" class="btn red">Admin</a><br>
+                <!-- <a href="<?=base_url('DashboardAdmin')?>" class="btn red">tst</a><br> -->
                 <!-- <a href="<?=base_url("signup")?>" class="btn red">Sign Up</a><br> -->
             </div>
         </div>

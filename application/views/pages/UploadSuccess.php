@@ -45,13 +45,13 @@
 
         <form class="column form_content"  action="<?=base_url("dashboard")?>">
 
-            <h2>Uploaded Details . . . . </h2><br>
+            <!-- <h2>Uploaded Details . . . . </h2><br>
 
             <ul>
                 <?php foreach ($upload_data as $item => $value):?>
                     <li><?php echo $item;?>: <?php echo $value;?></li>
                 <?php endforeach; ?>
-            </ul>
+            </ul> -->
 
 <!--            <p>--><?php //echo anchor('dashboard', 'Back to Dashboard!'); ?><!--</p>-->
             <br>

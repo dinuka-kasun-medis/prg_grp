@@ -1,6 +1,6 @@
-<?php
+<!--  
 //defined('BASEPATH') OR exit('No direct script access allowed');
-//?>
+/*//?>
 <!--<!DOCTYPE html>-->
 <!--<html>-->
 <!--<head>-->
@@ -11,15 +11,15 @@
 <!--    <style>-->
 <!--        * {box-sizing: border-box}-->
 <!---->
-<!--        /* Set height of body and the document to 100% */-->
-<!--        body, html {-->
+<!--        /* Set height of body and the document to 100% */
+/*<!--        body, html {-->
 <!--            height: 100%;-->
 <!--            margin: 0;-->
 <!--            font-family: Arial;-->
 <!--        }-->
 <!---->
-<!--        /* Style tab links */-->
-<!--        .tablink {-->
+<!--        /* Style tab links */
+/*<!--        .tablink {-->
 <!--            background-color: #555;-->
 <!--            color: white;-->
 <!--            float: left;-->
@@ -35,8 +35,8 @@
 <!--            background-color: #777;-->
 <!--        }-->
 <!---->
-<!--        /* Style the tab content (and add height:100% for full page content) */-->
-<!--        .tabcontent {-->
+<!--        /* Style the tab content (and add height:100% for full page content) */
+/*<!--        .tabcontent {-->
 <!--            color: white;-->
 <!--            display: none;-->
 <!--            padding: 10px 20px;-->
@@ -46,8 +46,8 @@
 <!--        #PriceList {background-color: #8A6BCA;}-->
 <!--        #JobCard {background-color: #8A6BCA;}-->
 <!--        #Upload {background-color: #8A6BCA;}-->
-<!--        #Deals {background-color: #8A6BCA;}/*test*/-->
-<!--    </style>-->
+<!--        #Deals {background-color: #8A6BCA;}/*test*/
+/*<!--    </style>-->
 <!--    <link rel="stylesheet" type="text/css" href="--><?//=base_url('assets/css/mainstyle.css')?><!--">-->
 <!--</head>-->
 <!--<body>-->
@@ -85,10 +85,17 @@
 <!--</body>-->
 <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-5f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>-->
 <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>-->
-<!--</html>-->
+<!--</html>-->*/
+
+
+
 <link rel="stylesheet" type="text/css" href="<?=base_url('assets/css/admindashboardcss.css')?>">
 <link rel="stylesheet" type="text/css" href="<?=base_url('assets/js/admindashboard.js')?>">
-<link rel="stylesheet" type="text/css" href="<?=base_url('assets/css/mainstyle.css')?>">
+<!-- <link rel="stylesheet" type="text/css" href="<?=base_url('assets/css/mainstyle.css')?>"> -->
+
+<link rel="stylesheet" type="text/css" href="<?=base_url('assets/css/admindashboardcss.css')?>">
+<link rel="stylesheet" type="text/css" href="<?=base_url('assets/js/admindashboard.js')?>">
+
 <body>
 
 <section>
@@ -115,12 +122,12 @@
 
         </div>
 
-        <div class="box fourth">
+        <!-- <div class="box fourth">
             <span class="icon-cont"><i class="fa fa-print"></i></span>
             <a href="<?=base_url("")?>">
                 <h3>Print History</h3>
 
-        </div>
+        </div> -->
     </div>
 </body>
 
