@@ -57,5 +57,7 @@ class SignUp extends CI_Controller {
         $this->db->set("password",$password);
         $this->db->set("faculty", $faculty);
         if(!$this->db->insert("students")) throw new Exception();
+        $this->load->view('common/headerindex');
+		$this->load->view("pages/index");
     }
 }
