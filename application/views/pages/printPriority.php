@@ -61,11 +61,12 @@ tr:nth-child(even) {
           $link = $prt1.$name.$prt2;
 
           $mp1 = "Email/index/";
-          $msg = $mp1."Your pdf id : ".$name." started to print it will take around 30 minits";
+          $email = $row->email;
+          $sent = explode("@",$mp1.$email);
         ?>
         <!-- <a href="<?=base_url('Email')?>" class="btn red">Start Printing</a> -->
         <!-- <td><a href="<?=base_url($link)?>" target="_blank">View Pdf</a> -->
-        <a href="<?php echo base_url($msg) ?>" href="<?=base_url($link)?>" target="_blank" class="btn red">Starting Printing</a>
+        <a href="<?php echo base_url($sent[0]) ?>" href="<?=base_url($link)?>" target="_blank" class="btn red">Starting Printing</a>
       </td>
       
       </tr>  

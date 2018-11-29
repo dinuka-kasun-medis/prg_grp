@@ -79,7 +79,7 @@
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/css/mdb.min.css'>
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
 
-      <link rel="stylesheet" href="css/style.css">
+      <!-- <link rel="stylesheet" href="css/style.css"> -->
 <style>
 main {
   padding-top: 3rem;
@@ -100,6 +100,15 @@ footer.page-footer {
   margin-top: 2rem;
 }
 
+.container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
 </style>
 
 <script>
@@ -109,10 +118,7 @@ footer.page-footer {
 </head>
 
 <body>
-
-
 <main>
-
   <!--Main layout-->
   <div class="container">
     <!--First row-->
