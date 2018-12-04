@@ -54,3 +54,18 @@ $route['default_controller'] = 'Home/index';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+$route['signup'] = 'SignUp/index';
+$route['process_add'] = 'SignUp/process_add';
+
+$route['uploader'] = 'Upload';
+
+$route['login'] = 'LogIn/index';
+$route['log-in'] = 'LogIn/login_student';
+$route['logout'] = 'LogIn/logout';
+
+$route['dashboard']= 'DashboardCustomer/index';
+$route['jobcard']= 'DashboardCustomer/jobcard';
+$route['jobadd']= 'JobCard/job_add';
+
+$route['email'] = 'Email_Controller';
+$route['order'] = 'OrderDetails/viewOrder';

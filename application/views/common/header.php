@@ -33,7 +33,12 @@
     body{
         font-family: 'Roboto', sans-serif;
     }
+
+    
 </style>
+
+<link rel="stylesheet" type="text/css" href="<?=base_url('assets/css/mainstyle.css')?>">
+<link rel="stylesheet" type="text/css" href="<?=base_url('assets/css/mainstyle.css')?>">
 
 <link rel="stylesheet" type="text/css" href="<?=base_url("assets/css/custom_modal_styles.css")?>">
 
@@ -46,14 +51,14 @@
         </div>
         <div>
             <link rel="stylesheet" type="text/css" href="<?=base_url("assets/css/header_styles.css")?>">
-            <div id="header_title">UCSC PrinShop OnLine</div>
+            <div id="header_title">UCSC PrintShop OnLine</div>
         </div>
 
         <div class="flex-grow-1"></div>
 
         <div style="margin-right:20px;">
             <div>
-                <a href="https://www.facebook.com/PahasaraUCSC/">
+                <!-- <a href="https://www.facebook.com/PahasaraUCSC/">
                     <img src="<?=base_url('images/facebook.png')?>" width="50px">
                 </a>
                 <a href="https://twitter.com/UCSC_LK">
@@ -67,19 +72,22 @@
                 </a>
                 <a href="https://www.youtube.com/channel/UC0gdcqEL6ZZeT67s0IbOrHg">
                     <img src="<?=base_url('images/youtube.png')?>" width="36px">
-                </a>
+                </a> -->
+                <a href="<?=base_url("Home")?>" class="btn red">Sign Out</a>
+                <a href="<?=base_url('DashboardAdmin')?>" >tst</a><br>
+                <!-- <a href="<?=base_url("signup")?>" class="btn red">Sign Up</a><br> -->
             </div>
         </div>
         <div>
-<!--            <div id="header_links">-->
+            <div id="header_links">
 <!--                --><?php //if($this->session->userdata('logged') !== null && $this->session->userdata('logged')): ?>
-<!--                    <span><a href="--><?//=base_url("Dashboard")?><!--">Dashboard</a></span>-->
-<!--                    <span><a href="--><?//=base_url("profile")?><!--">--><?php //$fname = $this->session->userdata('fname'); echo $fname; ?><!--</a></span>-->
-<!--                    <span><a href="--><?//=base_url("auth/logout")?><!--">Log out</a></span>-->
+<!--                    <span><a href="--><?//=base_url("dashboard")?><!--">Dashboard</a></span>-->
+<!--                    <span>--><?php //$fname = $this->session->userdata('fname'); echo $fname; ?><!--</span>-->
+<!--                    <span><a href="--><?//=base_url("logout")?><!--">Log out</a></span>-->
 <!--                --><?php //else : ?>
 <!--                    <span><a href="--><?//=base_url("log-in")?><!--">Login</a></span>-->
 <!--                --><?php //endif ?>
-<!--            </div>-->
+            </div>
         </div>
 
     </div>
